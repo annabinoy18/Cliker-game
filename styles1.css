@@ -1,0 +1,102 @@
+/* styles1.css */
+
+/* General body styling */
+body {
+    background-color: #b2a2db; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Center the main heading */
+h1 {
+    color: #333;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Styling the play area container */
+#play {
+    display: flex;
+    gap: 20px; /* Adds gap between buttons */
+    margin-bottom: 2em;
+}
+
+/* General button styling */
+#play button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Individual button colors */
+#red {
+    background-color: #f14021; /* Tomato red */
+}
+
+#green {
+    background-color: #21f021; /* Lime green */
+}
+
+#yellow {
+    background-color: #f0d854; /* Gold */
+}
+
+/* Hover effect to scale buttons */
+#play button:hover {
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+}
+
+/* Container for Home and Restart buttons */
+#controls {
+    display: flex;
+    gap: 20px; /* Adds space between the Home and Restart buttons */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for both buttons */
+#home, #restart {
+    background-color: #50a1e4; /* Steel blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for both buttons */
+#home:hover, #restart:hover {
+    background-color: #5a9bd3; /* Lighter steel blue on hover */
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+}
+#score-time {
+    display: flex;
+    flex-direction: column; /* Aligns the time and score vertically */
+    align-items: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #403a48;
+}
+
+/* Styling for the timer */
+#timer {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* Styling for the total score */
+#totalScore {
+    font-weight: bold;
+}

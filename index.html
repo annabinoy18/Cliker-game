@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RED-GREEN-YELLOW</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome To the Game</h1>
+        <h2>RED-GREEN-YELLOW</h2>
+        <li><a href="#about">About</a></li>
+        <li><a href="#howtoplay">How To Play</a></li>
+    </header>
+
+    <main>
+        <section id="about">
+            <h3>ABOUT THE GAME</h3>
+            <p>RED-GREEN-YELLOW is a fun and engaging color-clicking game that challenges your reaction time and coordination. In this game, players interact with three color-coded buttons: red, green, and yellow. The objective is simple: click each button as many times as possible before the timer runs out.</p>
+        </section>
+        <section id="howtoplay">
+            <h4>HOW TO PLAY</h4>
+            <ul>
+                <li>Click the Buttons: Each button represents a different color and counts the number of times it has been clicked. Click on the red, green, and yellow buttons to increase your score for each color.</li>
+                <li>Score Tracking: Your score is tracked in real-time and displayed next to each button, allowing you to see how many times you’ve clicked each color.</li>
+                <li>Timer: A countdown timer starts at 15 seconds. Keep an eye on the timer to ensure you maximize your clicks before time runs out.</li>
+                <li>Restart: If you want to play again, hit the "Restart" button to reset the scores and timer. You can also return to the home page using the "Home" button.</li>
+            </ul>
+        </section>
+        <section id="button">
+            <button id="start">Start</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 RED-GREEN-YELLOW. All rights reserved.</p>
+    </footer>
+    <script>
+        const start=document.getElementById('start')
+        start.onclick = () =>{
+        window.location.href='main.html'
+        }
+    </script>
+</body>
+</html>
